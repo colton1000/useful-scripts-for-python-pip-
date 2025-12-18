@@ -10,7 +10,10 @@ packages = [
     "rich",
     "pytest",
     "pandas",
-    "scipy"  
+    "scipy",
+    "colorama",
+    "pyYAML",
+    "Streamlit"
 ]
 
 def install_packages(package_list):
@@ -27,4 +30,5 @@ def install_packages(package_list):
 
 if __name__ == "__main__":
     install_packages(packages)
+
     print("\nAll installations complete!")
