@@ -17,8 +17,7 @@ packages = [
     "psutil",
     "GPUtil",
     "setuptools",
-    "pygame",
-    "shutil"
+    "pygame"
 ]
 
 def install_packages(package_list):
@@ -37,6 +36,7 @@ if __name__ == "__main__":
     install_packages(packages)
 
     print("\nAll installations complete!")
+
 
 
 
